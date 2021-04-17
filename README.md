@@ -27,11 +27,12 @@ To compile and run PhotoPrint you will need:
 Compile Under Fedora/RHEL/CentOS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-sudo dnf install gutenprint-devel gutenprint-libs gutenprint-extras gutenprint-libs-ui gutenprint-cups lcms-devel
-export LIBS=X11
-./configure
-make
+To compile under Fedora/RHEL/CentOS:
 
+    sudo dnf install gutenprint-devel gutenprint-libs gutenprint-extras gutenprint-libs-ui gutenprint-cups lcms-devel
+    export LIBS=X11
+    ./configure
+    make
 
 
 Usage:
